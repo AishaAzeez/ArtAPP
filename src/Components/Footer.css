@@ -1,0 +1,40 @@
+.footervid{
+    width: 8%;
+ }
+ .footer{
+    margin-top: -18px;
+    background-color:#151515;
+     color: white;
+     font-family: 'Cormorant Garamond', serif;
+
+ }
+ .red{
+    color:#801818;
+    font-weight: bolder;
+}
+#button{
+    margin-top: 5px;
+    width: 80%;
+    background-color:#801818;
+    border: #801818;
+}
+@media(max-width:600px){
+.guide{
+    margin-left:189px;
+}
+.link{
+    margin-bottom:-123px;
+    margin-left: 34px;
+}
+.contact,.uploader{
+    margin-left: 34px;
+}
+.footer{
+    padding: 0;
+    
+}
+
+
+    
+}
+ 

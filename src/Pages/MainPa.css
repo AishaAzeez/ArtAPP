@@ -1,0 +1,24 @@
+.search-container {
+    display: flex;
+    max-width: 390px;
+    margin: 20px auto;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius:25px 0 0 25px; /* Adjusted border radius for both ends */
+    font-size: 12px;
+  }
+  
+  .search-button {
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+    border-radius:0 25px 25px 0; /* Adjusted border radius for both ends */
+    cursor: pointer;
+    font-size: 12px;
+  }
+  

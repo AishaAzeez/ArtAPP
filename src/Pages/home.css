@@ -1,0 +1,66 @@
+
+
+
+
+@media (max-width: 767px){
+    #tot{
+      max-height: 300px;
+    }
+}
+.landing-title {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    font-size: 60px;
+  }
+  
+  .landing-title.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  #h1{
+    font-size: 60px;
+    font-family: 'Protest Revolution', sans-serif;
+  }
+
+  .button{
+    padding: 10px 80px 10px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid transparent;
+    border-image: linear-gradient(120.55deg, #FF4040 18.56%, #A20BD8 98.01%);
+    border-image-slice: 1;
+    border-radius: 50px; 
+    color: white;
+    cursor: pointer;
+
+}
+  .p-text{
+    font-size: 18px;
+    margin-top: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .landing-title {
+      font-size: 30px;
+      bottom:30%;
+      text-align: center;
+      width: 80%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #h1{
+        font-size: 20px;
+    }
+    .p-text{
+        font-size: 10px;
+        margin-top: 6px;
+      }
+      
+  }
+  
